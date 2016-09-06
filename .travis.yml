@@ -4,6 +4,6 @@ go:       1.7
 before_script:
   - go fmt
   - go vet
-  - script/travis-glide
+  - go get gopkg.in/mgo.v2
 script:
   - go test
