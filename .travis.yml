@@ -1,0 +1,9 @@
+language: go
+go:       1.7
+
+before_script:
+  - go fmt
+  - go vet
+  - script/travis-glide
+script:
+  - go test

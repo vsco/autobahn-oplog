@@ -1,0 +1,3 @@
+package: github.com/vsco/autobahn-oplog
+import:
+- package: gopkg.in/mgo.v2
